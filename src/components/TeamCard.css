@@ -17,8 +17,8 @@
 }
 
 .team-card .img:hover {
-  filter: grayscale(0.7);
   -webkit-filter: grayscale(0.7);
+  filter: grayscale(0.7);
 }
 
 @media (max-width: 1200px) {
@@ -94,8 +94,7 @@ color: #f35a38;
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 5px 10px;
-  /*font-size: 20px;
-  */
+
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
