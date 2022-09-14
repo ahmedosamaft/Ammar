@@ -12,8 +12,8 @@ export default function Teams() {
     <div className="teams">
       <div className="container">
         <div className="heading-container">
-          <h5>TEAM MEMBERS</h5>
-          <h2>Meet our professional and expert team members</h2>
+          <h5 className="wow zoomInDown">TEAM MEMBERS</h5>
+          <h2 className="wow zoomInDown">Meet our professional and expert team members</h2>
         </div>
         <div className="card-grid">
           <TeamCard img={img1} name={names[0]} position={positions[0]} />

@@ -3,12 +3,22 @@
   width: 340px;
   background-size: contain;
   background-repeat: no-repeat;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   background-position: center;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   border-radius: 20px;
+}
+
+.team-card .img:hover {
+  filter: grayscale(0.7);
+  -webkit-filter: grayscale(0.7);
 }
 
 @media (max-width: 1200px) {
@@ -33,6 +43,15 @@
 .team-info h3 {
   color: #0e2258;
   font-size: 22px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.team-info:hover h3 {
+color: #f35a38;
 }
 
 .team-info h5 {
@@ -56,10 +75,12 @@
   border-radius: 5px;
   background-color: #fff;
   right: 0;
+
   box-shadow: 0 0 10px #cccccc;
 }
 
-.social li.active {
+.social li.active,
+.social li:hover {
   background-color: #f35a38;
   color: white;
 }
@@ -67,8 +88,14 @@
 .social li {
   margin: 10px 0;
   background-color: #eee;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   padding: 5px 10px;
-  /* font-size: 20px; */
+  /*font-size: 20px;
+  */
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -81,17 +108,17 @@
     bottom: 0;
     flex-flow: row;
     right: 50%;
-    transform: translate(50%,-100%);
-    -webkit-transform: translate(50%,-100%);
-    -moz-transform: translate(50%,-100%);
-    -ms-transform: translate(50%,-100%);
-    -o-transform: translate(50%,-100%);
-}
-.social li {
-  margin: 5px 10px;
-}
+    -webkit-transform: translate(50%, -100%);
+    -moz-transform: translate(50%, -100%);
+    -ms-transform: translate(50%, -100%);
+    -o-transform: translate(50%, -100%);
+    transform: translate(50%, -100%);
+  }
+  .social li {
+    margin: 5px 10px;
+  }
 
-.team-info {
-  margin-top: 50px;
-}
+  .team-info {
+    margin-top: 50px;
+  }
 }

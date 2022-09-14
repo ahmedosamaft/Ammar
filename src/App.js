@@ -1,14 +1,18 @@
 import "./App.css";
 import FAQ from "./components/FAQ";
-
 import Teams from "./components/Teams";
-import { faAngry } from "@fortawesome/free-regular-svg-icons";
+import Review from "./components/Review";
+import LastNews from "./components/LastNews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <FAQ />
       <Teams />
+      <Review />
+      <LastNews />
+      <Footer />
     </div>
   );
 }

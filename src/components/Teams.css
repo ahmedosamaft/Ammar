@@ -3,18 +3,20 @@
   padding: 50px 0;
 }
 
-.teams h5 {
+.heading-container h5 {
   color: #f35a38;
+  margin: 0;
 }
 
 .teams .container {
   text-align: center;
 }
 
-.teams h2 {
+.heading-container h2 {
   color: #0e2258;
   max-width: 450px;
   display: block;
+  margin: 20px 0;
 }
 
 .heading-container {

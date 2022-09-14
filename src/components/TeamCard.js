@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./TeamCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,9 +7,17 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import WOW from "wowjs";
+
 export default function TeamCard(props) {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+  }, []);
+
   return (
-    <div className="team-card">
+    <div className="team-card wow bounceInUp">
       <div
         className="img"
         style={{ backgroundImage: `url(${props.img})` }}

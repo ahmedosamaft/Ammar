@@ -1,0 +1,146 @@
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  gap: 10px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .news {
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+  }
+}
+@media (max-width: 968px) {
+  .news {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
+
+.new.withimg {
+  background-image: url("https://wordpressriverthemes.com/aveitelementor/wp-content/uploads/2022/03/v1.jpg");
+  background-size: cover;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.new.withimg:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+.new {
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+}
+
+.new::before {
+  background-color: #f35a38;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 5;
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.new:first-of-type:before {
+  content: "15Jul, 2022";
+}
+
+.new:nth-child(2):before {
+  content: "30Jun, 2021";
+}
+.new:last-child:before {
+  content: "29Feb, 2021";
+}
+
+.new h4 {
+  z-index: 5;
+}
+
+.new:nth-child(2){
+  justify-content: space-around;
+  text-align: left;
+  padding: 50px;
+}
+
+.new:nth-child(2) h4 {
+  color: #0e2258;
+}
+
+.new:nth-child(2) p {
+  color: #666;
+}
+
+.new img {
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 10px;
+}
+
+.by {
+  z-index: 5;
+  display: flex;
+  align-items: center;
+}
+
+.by p {
+  z-index: 5;
+  margin: 0;
+}
+
+.by span:first-of-type {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  z-index: 5;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.by span:first-of-type:hover {
+  color: #f35a38;
+}
+
+.by .bar {
+  top: -2px;
+  z-index: 50;
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  z-index: 5;
+  margin: 0 5px;
+  background-color: white;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  opacity: 0.3;
+  background-color: #000;
+}
