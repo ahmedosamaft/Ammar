@@ -1,0 +1,67 @@
+.teams {
+  background-color: #ecf6fa;
+  padding: 50px 0;
+}
+
+.teams h5 {
+  color: #f35a38;
+}
+
+.teams .container {
+  text-align: center;
+}
+
+.teams h2 {
+  color: #0e2258;
+  max-width: 450px;
+  display: block;
+}
+
+.heading-container {
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-container::before {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  width: 15px;
+  background: #f35a38;
+  margin-left: -45px;
+}
+
+.heading-container::after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #f35a38;
+  margin-left: -25px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+@media (max-width: 996px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));}
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));}
+}
