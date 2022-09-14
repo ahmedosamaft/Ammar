@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Ammar/static/css/main.7d83c78a.css",
-    "main.js": "/Ammar/static/js/main.891eceb2.js",
+    "main.css": "/Ammar/static/css/main.69a08b45.css",
+    "main.js": "/Ammar/static/js/main.11d97645.js",
     "static/js/787.c1112931.chunk.js": "/Ammar/static/js/787.c1112931.chunk.js",
     "static/media/faq.png": "/Ammar/static/media/faq.337ffce3707164614b52.png",
     "static/media/team3.jpg": "/Ammar/static/media/team3.7f24b691931d06919e27.jpg",
     "static/media/team2.jpg": "/Ammar/static/media/team2.89b3ec758f55b6604ae7.jpg",
     "static/media/team1.jpg": "/Ammar/static/media/team1.9d5b6cc5dfa7f7fe6ac5.jpg",
     "index.html": "/Ammar/index.html",
-    "main.7d83c78a.css.map": "/Ammar/static/css/main.7d83c78a.css.map",
-    "main.891eceb2.js.map": "/Ammar/static/js/main.891eceb2.js.map",
+    "main.69a08b45.css.map": "/Ammar/static/css/main.69a08b45.css.map",
+    "main.11d97645.js.map": "/Ammar/static/js/main.11d97645.js.map",
     "787.c1112931.chunk.js.map": "/Ammar/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d83c78a.css",
-    "static/js/main.891eceb2.js"
+    "static/css/main.69a08b45.css",
+    "static/js/main.11d97645.js"
   ]
 }
